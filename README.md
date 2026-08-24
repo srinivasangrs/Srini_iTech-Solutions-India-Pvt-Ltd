@@ -7,7 +7,6 @@ Run:
 docker compose up -d postgres
 copy .env.example to .env
 npm install
-npm install --prefix frontend
 npm run dev
 
 Open http://localhost:5173
